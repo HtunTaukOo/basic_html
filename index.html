@@ -1,29 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Profile</title>
+    <title>My Personal Web Page</title>
 </head>
 <body>
-    <h1>My Personal Profile</h1>
 
-    <img src="public/images/myphoto.png" alt="My Photo" width="200">
+    <h1>Welcome to My Personal Web Page</h1>
+    <p>Created using only basic HTML tags — no CSS, no JavaScript!</p>
 
-    <h2>About Me</h2>
-    <p>
-        Hello! My name is Tun Tauk Oo. I am a student who loves technology,
-        creativity, and learning new things. I enjoy working on different
-        projects and exploring new ideas.
-    </p>
+    <hr>
 
-    <h2>My Hobbies</h2>
+    <h2>Quick Links:</h2>
     <ul>
-        <li>Gaming</li>
-        <li>Watching movies</li>
-        <li>Cycling</li>
-        <li>Coding</li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
     </ul>
 
-    <h2>My Skills</h2>
+    <hr>
+
+    <h2 id="about">About Me</h2>
+    <p>Hello! My name is Tun Tauk Oo. I am a student who loves learning new things and building creative projects.</p>
+
+    <!-- Hobbies -->
+    <h2 id="hobbies">My Hobbies</h2>
+    <ul>
+        <li>Reading books</li>
+        <li>Playing games</li>
+        <li>Coding</li>
+        <li>Watching Movies</li>
+    </ul>
+
+    <!-- Gallery -->
+    <h2 id="gallery">Gallery</h2>
+    <img src="public/images/myphoto.jpg" alt="My Photo" width="200">
+
+    <!-- Skills Table -->
+    <h2>My Core Skills</h2>
     <table border="1">
         <tr>
             <th>Skill</th>
@@ -42,6 +56,10 @@
             <td>3</td>
         </tr>
     </table>
+
+    <!-- Contact -->
+    <h2 id="contact">Contact</h2>
+    <p>Email: htuntaukoo86@example.com</p>
 
 </body>
 </html>
